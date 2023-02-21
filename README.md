@@ -1,6 +1,10 @@
 # simple-serial-port-scanner
 Read in hand scanners directly from the browser without any software.
 
+## Super short
+Click this
+https://njalnilum.github.io/simple-serial-port-scanner/
+
 ## Description
 There are so few lines of code that it is not worth explaining anything here. Explanations are included in the js file as comments. 
 The structure of the html and css files should not be explained here because they are irrelevant.
