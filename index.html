@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="icon" href="logo.png">
+
+  <title>Serial Port Scan</title>
+  <meta name="description" content="Simple Serial Port Reader">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Serial Port Reader">
+  <meta property="og:description" content="Read in hand scanners directly from the browser without any software.">
+  <meta property="og:url" content="https://njalnilum.github.io/njal.github.io/">
+  <meta property="og:image" content="./logo.png">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div id="header">
+      <h1>Simple Serial Port Scanner</h1>
+  </div>
+
+
+  <div id="content">
+    <button onclick="connectSerial()">Connect</button>
+    <button onclick="disconnectSerial()">Disconnect</button>
+    <input type="text" id="baud" style="width: 10ch;" value="9600"></input>
+  </div>
+
+  <textarea class="box" id="serialInput" disabled="true">
+  </textarea>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
